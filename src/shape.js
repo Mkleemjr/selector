@@ -1,8 +1,12 @@
 import React from 'react';
 
-const Shape = (props) => {
+const Shape = ({shape, selectShape}) => {
+    // console.log(props);
+    // const shape = props.shape;
+    // const selectShape = props.selectShape;
+
     return (
-        <div className={props.shape}/>
+        <div className={shape} onClick={ () => selectShape(shape) }/>
     )
 }
 
