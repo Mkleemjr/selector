@@ -36,10 +36,11 @@ body {
 .shape-list {
   display: flex;
   justify-content: space-evenly;
+  align-items: space-around;
 }
 
 .shape-list div {
-  margin-top: 40px;
+  margin-top: 60px;
   transition: all 1s ease;
 }
 
